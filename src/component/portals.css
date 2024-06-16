@@ -1,0 +1,21 @@
+.rectangular-surface {
+    width: 300px; /* Adjust width as needed */
+ /* Adjust height as needed */
+    border-inline: 1px solid black; /* Black border */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(78, 78, 78, 0.582);
+    flex-direction: column;
+}
+
+/* Styling for horizontal lines */
+.horizontal-line {
+    height: 50px;
+    position: relative;
+    width: 100%; /* Takes full width of parent */
+    /* Line color */ ;
+    background-color: rgba(78, 78, 78, 0.582);
+}
+
